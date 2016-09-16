@@ -70,4 +70,29 @@ Branch master set up to track remote branch master from origin.
  - - - end - - -
 
 ----
+ 20160916.1805
+
+To make a copy of the same files on another machine I had to do this:
+
+  SB4 /Users/munafo/EC601/HW1/facedetect 
+   : git clone https://github.com/QifanHe/Qifan.git
+  Cloning into 'Qifan'...
+  remote: Counting objects: 13, done.
+  remote: Compressing objects: 100% (10/10), done.
+  remote: Total 13 (delta 3), reused 12 (delta 2), pack-reused 0
+  Unpacking objects: 100% (13/13), done.
+  SB4 /Users/munafo/EC601/HW1/facedetect 
+   : mv Qifan facedetect
+
+then I added this text to 0-README.txt. To update the central repository
+I will do this:
+
+  git add 0-README.txt
+  git commit
+  # It puts me in an editor, I type a message explaining that I
+  # added this text, then save, then quit the editor
+  git push
+  # enter my github user ID and password
+
+----
 
