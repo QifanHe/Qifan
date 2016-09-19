@@ -58,7 +58,7 @@ if __name__ == '__main__':
         t = clock()
         rects = detect(gray, cascade)
         vis = img.copy()
-        draw_rects(vis, rects, (0, 255, 0))
+        draw_rects(vis, rects, (0, 128, 255))
         if not nested.empty():
             for x1, y1, x2, y2 in rects:
                 roi = gray[y1:y2, x1:x2]
