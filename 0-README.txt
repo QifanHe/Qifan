@@ -16,7 +16,26 @@ Source files are from OpenCV version 3.1.0. Get a copy of the source code:
 
   git clone https://github.com/Itseez/opencv.git
 
-The files we used are in:
+Full instructions for installing OpenCV on a Linux system (Ubuntu 16.04)
+were found at:
+
+  www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/
+
+We also found instructions for installing on Windows, and Mac install
+instructions were posted on Blackboard.
+
+Once you have followed the OpenCV instructions, you can create a
+folder for this project by "cloning" the Github repository, or by
+downloading a ZIP archive from the Github website and un-ZIPing it on
+your machine.
+
+In Linux, the install instructions involve setting up virtualenv; to
+run a Python program that uses OpenCV one has to first type "workon
+cv" to enter the virtualenv that has the OpenCV packages. Then "python facedetect.py"
+wiull start the demo. It opens a window showing the webcam's image, with faces
+and eyes highlighted by green rectangles.
+
+The files we used came from these paths within the OpenCV source tree:
 
   opencv/samples/python  (the three .py files)
   opencv/data/haarcascades  (the two .xml files)
