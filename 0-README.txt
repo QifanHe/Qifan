@@ -1,4 +1,16 @@
+ENG ECE EC 601 Homework 1
+  Team members:
+    Qifan He (heqf@bu.edu , @qifanhe on Slack)
+    Robert Munafo (rmunafo@bu.edu , @mrob27 on Slac
 
+Project links:
+  Trello:   https://trello.com/b/axu9ZZZZ/hw1-1st-sprint
+  Github:   https://github.com/QifanHe/Qifan
+  Slack:
+    @qifanhe (Qifan He)
+    @mrob27  (Robert Munafo)
+
+----
 
 Source files are from OpenCV version 3.1.0. Get a copy of the source code:
 
